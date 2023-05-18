@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(151, 22, 186);
+  background: linear-gradient(
+    90deg,
+    rgba(151, 22, 186, 1) 0%,
+    rgba(0, 169, 238, 1) 100%
+  );
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.search_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 30px;
+}
+
+.input_search {
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 30px;
+  outline: none;
+  border-color: #fff;
+  width: 65%;
+  height: 41px;
+  font-size: medium;
+}
+
+.quotes_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: cyan;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 9px;
+  font-size: larger;
+}
